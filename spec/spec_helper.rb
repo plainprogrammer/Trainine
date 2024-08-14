@@ -1,3 +1,5 @@
+require "rspec/its"
+
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

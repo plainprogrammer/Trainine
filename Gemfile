@@ -19,7 +19,7 @@ group :development, :test do
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
 
-  gem "rspec-rails", "~> 6.0", ">= 6.1.3"
+  gem "rspec-rails", "~> 6.1"
   gem "rspec-its", require: false
   gem "shoulda-matchers", "~> 6.0"
 end

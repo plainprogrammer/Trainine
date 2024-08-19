@@ -21,7 +21,7 @@ group :development, :test do
 
   gem "rspec-rails", "~> 6.0", ">= 6.1.3"
   gem "rspec-its", require: false
-  gem "shoulda-matchers", "~> 6.0"
+  gem "shoulda-matchers", "~> 6.4"
 end
 
 group :development do

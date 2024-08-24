@@ -9,6 +9,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "tailwindcss-rails"
 gem "jbuilder"
+gem "view_component", "~> 3.13.0"
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
@@ -21,6 +22,8 @@ group :development, :test do
 
   gem "rspec-rails", "~> 6.1.4"
   gem "shoulda-matchers", "~> 6.4.0"
+  gem "rspec-its"
+  gem "capybara", "~> 3.40.0"
 end
 
 group :development do

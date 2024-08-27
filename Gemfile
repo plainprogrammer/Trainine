@@ -9,7 +9,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "tailwindcss-rails"
 gem "jbuilder"
-gem "view_component", "~> 3.13.0"
+gem "view_component", "~> 3.14.0"
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 

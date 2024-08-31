@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_08_28_122136) do
+ActiveRecord::Schema[7.2].define(version: 2024_08_31_123327) do
   create_table "dogs", force: :cascade do |t|
     t.string "name"
     t.string "registered_name"
@@ -19,6 +19,8 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_28_122136) do
     t.text "notes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "training_with_id"
+    t.index ["training_with_id"], name: "index_dogs_on_training_with_id"
   end
 
   create_table "trainers", force: :cascade do |t|
@@ -28,4 +30,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_28_122136) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  add_foreign_key "dogs", "trainers", column: "training_with_id"
 end

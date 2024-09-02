@@ -146,6 +146,10 @@ GEM
     parser (3.3.4.2)
       ast (~> 2.4.1)
       racc
+    phlex (1.10.3)
+    phlex-rails (1.2.1)
+      phlex (~> 1.10.0)
+      railties (>= 6.1, < 8)
     psych (5.1.2)
       stringio
     puma (6.4.2)
@@ -322,6 +326,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  phlex-rails (~> 1.2.1)
   puma (>= 5.0)
   rails (~> 7.2.1)
   rspec-its

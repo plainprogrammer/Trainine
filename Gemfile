@@ -14,6 +14,7 @@ gem "jbuilder"            # [https://github.com/rails/jbuilder]
 # gem "kredis"              # [https://github.com/rails/kredis]
 # gem "bcrypt", "~> 3.1.7"  # [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "image_processing", "~> 1.2"  # [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
+gem "phlex-rails", "~> 1.2.1"
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 

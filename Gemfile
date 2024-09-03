@@ -32,4 +32,5 @@ end
 group :test do
   gem "rspec-its"
   gem "shoulda-matchers", "~> 6.4"
+  gem "simplecov", "~> 0.22", require: false
 end

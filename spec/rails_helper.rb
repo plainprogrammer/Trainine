@@ -7,6 +7,8 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 
 require 'rspec/rails'
 # Add additional requires below this line.
+require 'simplecov'
+SimpleCov.start 'rails'
 
 Rails.root.glob('spec/support/**/*.rb').sort.each { |f| require f }
 
